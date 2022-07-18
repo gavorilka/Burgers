@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Nunito Sans', sans-serif;
@@ -8,7 +9,7 @@ body {
 .main {
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
 }
-.conteiner {
+.container {
     max-width: 1180px;
     margin: 0 auto;
     display: flex;
@@ -20,12 +21,13 @@ body {
     padding-top: 170px;
     padding-bottom: 170px;
 }
-h1 {
+.main h1 {
     font-size: 120px;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 120px;
     margin-bottom: 40px;
+
 }
 h1 span {
     color: #FBB731;
@@ -72,4 +74,51 @@ img {
     width: 829px;
     position: absolute;
     right: -200px;
+}
+.banners {
+
+    padding: 180px 0;
+}
+
+.banner__left, .banner__right {
+
+    display: flex;
+    align-items: center;
+    width: 580px;
+    height: 395px;
+    background-color: grey;
+    padding-left: 50px;
+    color: white;
+}
+
+.banner__discont {
+
+    background: #F37335;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 900px;
+    text-transform: uppercase;
+    padding: 5px 18px;
+    width: fit-content;
+    
+}
+.banner__title {
+   font-size: 60px;
+    
+}
+
+.banner__content {
+
+    max-width: 392px;
+}
+.banner__text {
+
+    font-size: 15px;
+}
+
+.banner__right h2 {
+
+    font-size: 44px;
+    font-weight: 700;
 }
