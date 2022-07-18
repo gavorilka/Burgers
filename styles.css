@@ -44,7 +44,7 @@ p {
     line-height: 1.4;
     margin-bottom: 42px;
 }
-a {
+.btn{
     color: #1E2F40;
     background-color: #FBB731;
     border-radius: 5px;
@@ -54,6 +54,7 @@ a {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
+    width: fit-content;
 }
 .visual {
     flex-grow: 1;
@@ -89,6 +90,17 @@ img {
     background-color: grey;
     padding-left: 50px;
     color: white;
+    background-size: cover;
+}
+.banner__left {
+
+    background: url("image/img.jpg") no-repeat;
+    
+}
+
+.banner__right {
+
+    background: url("image/img2.jpg") no-repeat;
 }
 
 .banner__discont {
@@ -111,6 +123,9 @@ img {
 .banner__content {
 
     max-width: 392px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 .banner__text {
 
