@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+li {
+    list-style: none;
+    color: #DEDEDE;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -38,12 +49,14 @@ h1 span {
     margin-bottom: 10px;
     
 }
+
 p {
     font-family: 'Lato', sans-serif;
     font-size: 19px;
     line-height: 1.4;
     margin-bottom: 42px;
 }
+
 .btn{
     color: #1E2F40;
     background-color: #FBB731;
@@ -56,33 +69,35 @@ p {
     font-weight: 700;
     width: fit-content;
 }
+
 .visual {
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
     position: relative;
 }
+
 .bg {
     width: 432px;
     height: 100%;
     background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
 }
 .text-descr {
-max-width:524px;
-
+    max-width:524px;
 }
-img {
+
+.visual__img {
     width: 829px;
     position: absolute;
     right: -200px;
 }
+
 .banners {
 
     padding: 180px 0;
 }
 
 .banner__left, .banner__right {
-
     display: flex;
     align-items: center;
     width: 580px;
@@ -92,19 +107,16 @@ img {
     color: white;
     background-size: cover;
 }
-.banner__left {
 
-    background: url("image/img.jpg") no-repeat;
-    
+.banner__left {
+    background: url("image/img.jpg") no-repeat;    
 }
 
 .banner__right {
-
     background: url("image/img2.jpg") no-repeat;
 }
 
 .banner__discont {
-
     background: #F37335;
     border-radius: 30px;
     text-align: center;
@@ -116,30 +128,51 @@ img {
     
 }
 .banner__title {
-   font-size: 60px;
-    
+   font-size: 60px;    
 }
 
 .banner__content {
-
     max-width: 392px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.banner__text {
 
+.banner__text {
     font-size: 15px;
 }
 
 .banner__right h2 {
-
     font-size: 44px;
     font-weight: 700;
 }
 
-/* footer {
+.footer__menu__title {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
 
+.footer__logo {
     width: 63px;
-    height: 56px;
-} */
+    height: 56px; 
+}
+
+ footer {
+    padding: 115px 0;
+    background-color: #1E2F40;
+} 
+
+.footer__submenu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__call a {
+    color: #FBB731;
+    font-size: 20px;
+    font-weight: 800;   
+}

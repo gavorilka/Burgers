@@ -13,7 +13,7 @@
 <body> 
 
 
-   <div class="modal" id="modal">
+   <div class="modal" id="modal" style="display: none;">
       <div class="modal_body">
          <div class="modal_close d-f">
             <img src="img/icons/close.svg" id="close_btn" alt="close">
@@ -66,7 +66,7 @@
          </div>
           <div class="visual">
              <div class="bg"></div>
-               <img src="image/burger.png" alt="burger">
+               <img src="image/burger.png" class="visual__img" alt="burger">
          </div>
       </div>
 
@@ -74,7 +74,7 @@
    <div class="banners">
       <div class="container">
 
-            <div class="baimnner__left">
+            <div class="banner__left">
                <div class="banner__content">
                   <div class="banner__discont">
                      скидка
@@ -110,11 +110,15 @@
    
      
 
-    <footer class="site-footer">
+    <footer class="site__footer">
 
-      <ul class="footer__menu">
+      <ul class="footer__menu container">
          <li>
-             <a href="#" class="footer__submenu__title">основные ссылки</a>
+            <img src="image/Icon.svg" class="footer__logo" alt=""> 
+         </li>
+
+         <li>
+             <h2 class="footer__menu__title">основные ссылки</h2>
              <ul class="footer__submenu">
                  <li><a href="">Меню</a></li>
                  <li><a href="">Заказ и Доставка</a></li>
@@ -123,15 +127,19 @@
              </ul>
          </li>
          <li>
-             <a href="#" class="footer-submenu-title">основная информация</a>
-             <ul class="footer__submenu">
-                 <li>Время
-                  ПН - ВС
+             <h2 class="footer__menu__title">основная информация</h2>
+             <ul class="footer__submenu footer__info">
+                 <li>Время<br>
+                  ПН - ВС<br>
                   11:00 - 22:00 без перерывов</li>
-                 <li><a href=""></a>Адрес
+                 <li><a href=""></a>Адрес<br>
                   Москва, ул. Тверская, 5, вход со двора</li>
                  
              </ul>
+         </li>
+         <li class="footer__call footer__submenu" >
+            <a href="">+ 7 900 787 13-13</a>
+            <a href="">+ 7 900 700 14-14</a>
          </li>
 
 
