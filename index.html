@@ -7,25 +7,66 @@
    <title>Burgers</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito+Sans:wght@800&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
-
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito+Sans:wght@800&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body> 
+
+
+   <div class="modal" id="modal">
+      <div class="modal_body">
+         <div class="modal_close d-f">
+            <img src="img/icons/close.svg" id="close_btn" alt="close">
+         </div>
+
+         <div class="modal_content">
+            <h2> 
+               Оставить заявку
+            </h2>
+               <p class="modal_description"> 
+                  Введите номер, и наш оператор позвонит вам в течение 10 минут в рабочее время
+               </p>
+
+               <p class="modal_worktime">
+                  работаем с 11:00 до 22:00
+               </p>
+            <form action="/" method="get">  
+               <p>
+                  Введите номер телефона
+               </p>
+               <div class="form_block d-f">
+                  <input type="text" required placeholder="+7 ( _ _ _) _ _ - _ _ - _ _">
+                  
+                  <button type="submit">
+                     Позвоните мне
+                     <img src="img/icons/arrow2.svg" alt="arrow2">                     
+                  </button>                  
+                  <div class="d-f form_politic">
+                     <input type="checkbox" required>
+                     <p class="form_politic_text">
+                          Нажимая кнопку вы соглашаетесь с условиями 
+                       <a href="">Политики конфиденциальности</a>  
+                     </p>                     
+                  </div>
+               </div>
+            </form>
+         </div>      
+      </div>
+   </div>
+
    <div class="main">
-      <div class="container">
-   
+      <div class="container">   
          <div class="text">
-        <h1>  
-         <span>работаем с 11:00 до 22:00 </span>  
-         Лучшие бургеры
+         <h1>  
+            <span>работаем с 11:00 до 22:00 </span>  
+            Лучшие бургеры
          </h1>
          <p class="text-descr"> Закажи наши фирменные бургеры или собери что-то свое, а&nbsp;наши курьеры доставят за&nbsp;30&nbsp;минут</p>
-         <a href="#" class="btn">заказать</a>
+            <a href="#" class="btn">заказать</a>
          </div>
-         <div class="visual">
-            <div class="bg"></div>
-            <img src="image/burger.png" alt="burger">
+          <div class="visual">
+             <div class="bg"></div>
+               <img src="image/burger.png" alt="burger">
          </div>
       </div>
 
@@ -33,7 +74,7 @@
    <div class="banners">
       <div class="container">
 
-            <div class="banner__left">
+            <div class="baimnner__left">
                <div class="banner__content">
                   <div class="banner__discont">
                      скидка
@@ -64,14 +105,40 @@
          </div>
            
          </div>
-
-
-
-      </div>
-      
-
+      </div>   
    </div>
    
+     
 
+    <footer class="site-footer">
+
+      <ul class="footer__menu">
+         <li>
+             <a href="#" class="footer__submenu__title">основные ссылки</a>
+             <ul class="footer__submenu">
+                 <li><a href="">Меню</a></li>
+                 <li><a href="">Заказ и Доставка</a></li>
+                 <li><a href="">Методы оплаты</a></li>
+                 <li><a href="">Контакты</a></li>
+             </ul>
+         </li>
+         <li>
+             <a href="#" class="footer-submenu-title">основная информация</a>
+             <ul class="footer__submenu">
+                 <li>Время
+                  ПН - ВС
+                  11:00 - 22:00 без перерывов</li>
+                 <li><a href=""></a>Адрес
+                  Москва, ул. Тверская, 5, вход со двора</li>
+                 
+             </ul>
+         </li>
+
+
+
+
+
+    </footer>     
+<script src="app.js"></script>
 </body>
 </html>
