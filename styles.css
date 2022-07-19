@@ -176,3 +176,108 @@ p {
     font-size: 20px;
     font-weight: 800;   
 }
+
+.modal {
+    height: 100%;
+    width: 100%;
+    background-color: #1c1c1ca3;
+    position:fixed;
+    top:0;
+    left: 0;
+   
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 99;
+    
+ }
+
+ .modal_opened {
+    display: flex; 
+ }
+ 
+ 
+ .modal_body {
+    background-color: rgb(230, 232, 235);
+    padding: 20px; 
+ }
+ 
+ .modal_close {
+    justify-content:flex-end; 
+ }
+ 
+ .modal_content {
+    padding: 10px 40px; 
+ }
+
+ .modal_description {
+    max-width: 340px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px auto; 
+ }
+ 
+ .modal_content h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center; 
+ }
+ 
+ .modal_worktime {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 24px; 
+ }
+ 
+ .form_block {
+    display: flex;
+    width: 90%;
+    gap: 25px;
+    flex-direction: column;
+    margin-top: 10px; 
+    gap: 10px;
+ }
+
+ form {
+    margin-top: 15px;
+}
+  
+ form p {
+     font-size: 12px;
+     margin-left: 40px;
+ 
+     flex-direction: column;
+}
+ 
+ form input[type=text], form button{
+    font-size: 18px;
+    padding: 25px 0;
+    padding-left: 20px;
+    width: 100%;
+    border-radius: 100px;
+    box-sizing: content-box;
+    border: none; 
+}
+ 
+ form button {
+    background-color: #F38120;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+ 
+ 
+ .form_politic_text {
+    max-width: 385px;
+    font-size: 13px;   
+}
+ 
+ .form_politic_text a {
+    color: orange;
+}
+ 

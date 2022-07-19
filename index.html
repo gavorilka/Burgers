@@ -13,10 +13,10 @@
 <body> 
 
 
-   <div class="modal" id="modal" style="display: none;">
+   <div class="modal" id="modal">
       <div class="modal_body">
          <div class="modal_close d-f">
-            <img src="img/icons/close.svg" id="close_btn" alt="close">
+            <img src="image/close.svg" id="close_btn" alt="close">
          </div>
 
          <div class="modal_content">
@@ -31,15 +31,13 @@
                   работаем с 11:00 до 22:00
                </p>
             <form action="/" method="get">  
-               <p>
-                  Введите номер телефона
-               </p>
+               
                <div class="form_block d-f">
-                  <input type="text" required placeholder="+7 ( _ _ _) _ _ - _ _ - _ _">
-                  
+                  <input type="text" required placeholder="Ваше имя">
+                  <input type="text" required placeholder="+7 ( _ _ _) _ _ - _ _ - _ _">                  
                   <button type="submit">
                      Позвоните мне
-                     <img src="img/icons/arrow2.svg" alt="arrow2">                     
+                     <img src="image/arrow2.svg" alt="arrow2">                     
                   </button>                  
                   <div class="d-f form_politic">
                      <input type="checkbox" required>
@@ -62,7 +60,7 @@
             Лучшие бургеры
          </h1>
          <p class="text-descr"> Закажи наши фирменные бургеры или собери что-то свое, а&nbsp;наши курьеры доставят за&nbsp;30&nbsp;минут</p>
-            <a href="#" class="btn">заказать</a>
+            <div class="btn">заказать</div>
          </div>
           <div class="visual">
              <div class="bg"></div>
@@ -73,37 +71,32 @@
    </div>
    <div class="banners">
       <div class="container">
-
-            <div class="banner__left">
-               <div class="banner__content">
-                  <div class="banner__discont">
-                     скидка
-                  </div>
-                  <h1 class="banner__title">
-                     -20%
-                  </h1>
-                  <p class="banner__text">
-                     При заказе на 3х и более персон мы делаем скидки, 
-                     а также предоставляем скидки именинникам
-                  </p>
+         <div class="banner__left">
+            <div class="banner__content">
+               <div class="banner__discont">
+                  скидка
                </div>
-               
-            </div>
-
-            <div class="banner__right">
-               <div class="banner__content">
-                  <h2>
-                     Бесплатно
-                  </h2>
-                  <p class="banner__text">
-                     При заказе на сумму 500 рублей и более - доставляем бесплатно
-                  </p>
-                  <a href="#" class="btn">заказать</a>
-               </div>
-             </div>
-            
+               <h1 class="banner__title">
+                  -20%
+               </h1>
+               <p class="banner__text">
+                  При заказе на 3х и более персон мы делаем скидки, 
+                  а также предоставляем скидки именинникам
+               </p>
+            </div>               
          </div>
-           
+         <div class="banner__right">
+            <div class="banner__content">
+               <h2>
+                  Бесплатно
+               </h2>
+               <p class="banner__text">
+                  При заказе на сумму 500 рублей и более - доставляем бесплатно
+               </p>
+               <div class="btn">заказать</div>
+            </div>
+         </div>            
+               
          </div>
       </div>   
    </div>
@@ -111,7 +104,6 @@
      
 
     <footer class="site__footer">
-
       <ul class="footer__menu container">
          <li>
             <img src="image/Icon.svg" class="footer__logo" alt=""> 
@@ -141,11 +133,6 @@
             <a href="">+ 7 900 787 13-13</a>
             <a href="">+ 7 900 700 14-14</a>
          </li>
-
-
-
-
-
     </footer>     
 <script src="app.js"></script>
 </body>
