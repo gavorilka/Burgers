@@ -68,6 +68,12 @@ p {
     font-size: 14px;
     font-weight: 700;
     width: fit-content;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: orangered;
 }
 
 .visual {
@@ -269,6 +275,12 @@ p {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover{
+    background-color: orangered;
 }
  
  
@@ -281,3 +293,5 @@ p {
     color: orange;
 }
  
+
+
