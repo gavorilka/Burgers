@@ -41,7 +41,6 @@ body {
     text-transform: uppercase;
     line-height: 120px;
     margin-bottom: 40px;
-
 }
 h1 span {
     color: #FBB731;
@@ -50,7 +49,7 @@ h1 span {
     line-height: 38px;
     display: block;
     margin-bottom: 10px;
-    
+   
 }
 
 p {
@@ -139,7 +138,6 @@ p {
     text-transform: uppercase;
     padding: 5px 18px;
     width: fit-content;
-    
 }
 .banner__title {
    font-size: 60px;    
@@ -203,7 +201,6 @@ p {
     align-items: center;
     display: none;
     z-index: 99;
-    
  }
 
  .modal_opened {
@@ -262,8 +259,7 @@ p {
   
  form p {
      font-size: 12px;
-     margin-left: 40px;
- 
+     margin-left: 40px; 
      flex-direction: column;
 }
  
@@ -291,8 +287,7 @@ p {
 form button:hover{
     background-color: orangered;
 }
- 
- 
+  
  .form_politic_text {
     max-width: 385px;
     font-size: 13px;   
@@ -302,4 +297,31 @@ form button:hover{
     color: orange;
 }
  
+@media (max-width:1300px) {
+    .bg {
+        width: 250px;       
+        margin-right: 200px;    
+
+    }
+    .visual__img {
+        width: 450px;        
+        left: -40%;
+        top: 15%;
+    }
+}
+
+@media (max-width:1150px) {
+    .bg {          
+        margin-right: 70px;        
+    }
+}
+
+@media (max-width:970px) {
+    .visual {          
+        display: none;     
+    }
+    .container{ 
+        justify-content: center;
+    }
+}
 
