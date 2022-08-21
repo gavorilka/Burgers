@@ -19,12 +19,15 @@ body {
 }
 .main {
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    overflow-x: hidden;    
 }
+
 .container {
     max-width: 1180px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding: 0 20px;
 }
 .text {
     color: #FAF9F9;
@@ -86,6 +89,7 @@ p {
 .bg {
     width: 432px;
     height: 100%;
+    position: relative;
     background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
 }
 .text-descr {
@@ -93,25 +97,29 @@ p {
 }
 
 .visual__img {
-    width: 829px;
+    width: 600px;
     position: absolute;
-    right: -200px;
+    left: -20%;
 }
 
 .banners {
-
     padding: 180px 0;
 }
 
 .banner__left, .banner__right {
     display: flex;
     align-items: center;
-    width: 580px;
-    height: 395px;
+    width: 550px;
+    height: 385px;
     background-color: grey;
     padding-left: 50px;
     color: white;
-    background-size: cover;
+    background-size: cover;    
+    box-shadow: 0 6px 10px rgb(221 95 38 / 70%);
+}
+
+.banners__container {
+    gap: 30px;
 }
 
 .banner__left {
@@ -206,6 +214,7 @@ p {
  .modal_body {
     background-color: rgb(230, 232, 235);
     padding: 20px; 
+    border-radius: 20px;
  }
  
  .modal_close {
@@ -293,5 +302,4 @@ form button:hover{
     color: orange;
 }
  
-
 
