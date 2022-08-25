@@ -1,3 +1,9 @@
+ @font-face {
+      font-family: "Marck Script";
+      src: url("MarckScript-Regular.ttf");
+    }
+    /*@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');*/
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +21,7 @@ a {
 }
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Marck Script', cursive;
 }
 .main {
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
